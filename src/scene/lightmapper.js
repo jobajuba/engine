@@ -31,10 +31,10 @@ import {
     SHADERDEF_DIRLM, SHADERDEF_LM,
     MASK_LIGHTMAP, MASK_BAKED,
     SHADOWUPDATE_REALTIME, SHADOWUPDATE_THISFRAME
-} from '../scene/constants.js';
-import { Camera } from '../scene/camera.js';
-import { GraphNode } from '../scene/graph-node.js';
-import { StandardMaterial } from '../scene/materials/standard-material.js';
+} from './constants.js';
+import { Camera } from './camera.js';
+import { GraphNode } from './graph-node.js';
+import { StandardMaterial } from './materials/standard-material.js';
 
 const MAX_LIGHTMAP_SIZE = 2048;
 

@@ -35,10 +35,10 @@ import {
     PARTICLEMODE_GPU,
     PARTICLEORIENTATION_SCREEN, PARTICLEORIENTATION_WORLD,
     PARTICLESORT_NONE
-} from '../../scene/constants.js';
-import { Material } from '../../scene/materials/material.js';
-import { Mesh } from '../../scene/mesh.js';
-import { MeshInstance } from '../../scene/mesh-instance.js';
+} from '../constants.js';
+import { Material } from '../materials/material.js';
+import { Mesh } from '../mesh.js';
+import { MeshInstance } from '../mesh-instance.js';
 
 import { ParticleCPUUpdater } from './cpu-updater.js';
 import { ParticleGPUUpdater } from './gpu-updater.js';

@@ -117,7 +117,7 @@ const moduleOptions = {
 };
 
 const target_release_es5 = {
-    input: 'pages/index.js',
+    input: 'src/index.js',
     output: {
         banner: getBanner(''),
         file: 'build/playcanvas.js',
@@ -143,7 +143,7 @@ const target_release_es5 = {
 };
 
 const target_release_es5min = {
-    input: 'pages/index.js',
+    input: 'src/index.js',
     output: {
         banner: getBanner(''),
         file: 'build/playcanvas.min.js',
@@ -169,7 +169,7 @@ const target_release_es5min = {
 };
 
 const target_release_es6 = {
-    input: 'pages/index.js',
+    input: 'src/index.js',
     output: {
         banner: getBanner(''),
         file: 'build/playcanvas.mjs',
@@ -195,7 +195,7 @@ const target_release_es6 = {
 };
 
 const target_debug = {
-    input: 'pages/index.js',
+    input: 'src/index.js',
     output: {
         banner: getBanner(' (DEBUG PROFILER)'),
         file: 'build/playcanvas.dbg.js',
@@ -224,7 +224,7 @@ const target_debug = {
 };
 
 const target_profiler = {
-    input: 'pages/index.js',
+    input: 'src/index.js',
     output: {
         banner: getBanner(' (PROFILER)'),
         file: 'build/playcanvas.prf.js',

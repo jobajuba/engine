@@ -6,7 +6,7 @@ import { Vec3 } from '../../math/vec3.js';
 import { CULLFACE_NONE } from '../../graphics/constants.js';
 import { drawQuadWithShader } from '../../graphics/simple-post-effect.js';
 
-import { EMITTERSHAPE_BOX } from '../../scene/constants.js';
+import { EMITTERSHAPE_BOX } from '../constants.js';
 
 var spawnMatrix3 = new Mat3();
 var emitterMatrix3 = new Mat3();

@@ -7,7 +7,7 @@ import { http, Http } from '../net/http.js';
 
 import { Animation, Key, Node } from '../animation/animation.js';
 
-import { GlbParser } from '../resources/parser/glb-parser.js';
+import { GlbParser } from './parser/glb-parser.js';
 
 /**
  * @class
